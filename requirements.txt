@@ -1,0 +1,7 @@
+pandas
+pymongo
+openpyxl
+llama-index 
+openai
+streamlit
+python-dotenv

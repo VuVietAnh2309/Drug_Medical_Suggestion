@@ -1,0 +1,7 @@
+index
+data/
+app.py
+build_llama_index.py
+mongodb.py
+test_final.py
+.env
