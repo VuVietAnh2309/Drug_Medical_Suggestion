@@ -25,7 +25,7 @@ python build_llama_index.py
 
 File này sẽ:
 
-- Đọc dữ liệu từ file "data/data_small.json"
+- Đọc dữ liệu từ file "data/data_small.json" (file nhỏ của data gốc, lượng dữ liệu khoảng 5% so với data gốc) => giảm thiểu chi phí embeddings trong quá trình test
 - Chuyển đổi thành Document objects
 - Tạo và lưu chỉ mục vector vào thư mục "./index"
 
