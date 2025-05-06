@@ -95,6 +95,6 @@ streamlit run app2.py
 - format_prescription_list: Chuẩn hóa đầu ra đơn thuốc.
 - create_gpt_prompt: Sinh prompt rõ ràng, có yêu cầu định dạng cụ thể cho GPT.
 
-
+*note:  Code logic luồng được viết trong file logic_response.py*
 
 
