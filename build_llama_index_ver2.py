@@ -10,10 +10,12 @@ import os
 import json
 from llama_index.core import VectorStoreIndex, Document
 from llama_index.embeddings.openai import OpenAIEmbedding
+from dotenv import load_dotenv
 
 # --------------------- Configuration --------------------- #
 # Set OpenAI API Key 
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+load_dotenv()
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY") #Todo
 
 # --------------------- Data Loading --------------------- #
 def load_prescription_data(file_path):

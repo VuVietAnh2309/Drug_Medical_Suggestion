@@ -1,4 +1,6 @@
-from mongodb import get_thuoc_from_mongo
+# Code chỉ để giải thích logic, không đóng vai trò trong chương trình chạy
+
+# from mongodb import get_thuoc_from_mongo
 from llama_index.core import StorageContext, load_index_from_storage
 from llama_index.llms.openai import OpenAI
 import os
@@ -13,7 +15,7 @@ query_engine = get_query_engine()
 
 def search_toa_thuoc(user_info):
     # 1. Tìm trong MongoDB
-    result = get_thuoc_from_mongo(user_info)
+    result = get_thuoc_from_mongo(user_info) # Đoạn này sẽ lỗi 
 
     if result:
         return {
