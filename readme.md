@@ -36,11 +36,13 @@
 ```
 
 ## Cách cài đặt 
+### Chuẩn bị dữ liệu *private data*
+
 **Bước 1: Khởi tạo cơ sở dữ liệu MongoDB**
 Chạy file mongodb.py để nạp dữ liệu từ file Excel vào MongoDB:
 
 ```bash
-python mongodb.py
+python mongodb_ver2.py
 ```
 
 File này sẽ:
@@ -53,7 +55,7 @@ File này sẽ:
 Chạy file build_llama_index.py để tạo vector index cho LLM:
 
 ```bash
-python build_llama_index.py
+python build_llama_index_ver2.py
 ```
 
 File này sẽ:
@@ -66,7 +68,7 @@ File này sẽ:
 Cuối cùng, chạy file app.py để khởi động giao diện người dùng:
 
 ```bash
-streamlit run app.py
+streamlit run app2.py
 ```
 
 Ứng dụng Streamlit sẽ:
